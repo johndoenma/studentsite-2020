@@ -1,0 +1,100 @@
+/* GLOBAL RESET */
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+/* GLOBAL COLORS  */
+body {
+    background-color: rgba(0,0,0,1);
+    color: rgba(255,255,255,.8);
+}
+a { color: rgba(255,255,51,1); }
+
+/* GLOBAL TYPOGRAPHY */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 88.75%; /* 14px */
+    line-height: 1.4;
+}
+p { max-width: 35em; }
+a { text-decoration: none; }
+h1, h2, h3 { font-weight: normal;}
+
+/* LAYOUT */
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 1em;
+}
+
+/* SITE STRUCTURE */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.site-header h1 {
+    margin: 0;
+}
+
+/* SITE NAV */
+.site-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav a {
+    padding: 1em;
+    display: block;
+}
+
+/* SITE MAIN */
+.site-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TWO COLUMN LISTS  */
+.list-two-col {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-two-col ul {
+    margin-bottom: 1em;
+}
+.list-two-col ul ul {
+    margin-bottom: 0;
+}
+.list-two-col li {
+    padding-right: 2em;
+}
+
+/* ASSIGNMENT LISTS */
+.list-assignments li li {
+    color: rgba(255,255,255,.4);
+}
+
+
+/* FOR TESTING ONLY */
+
+/* *, body {
+    background: rgba(0,0,0,.1);
+    border: 1px solid black;
+    padding: 10px;
+} */
+
+/* .site-header { background-color: rgba(255,0,0,.3); }
+.site-main { background-color: rgba(2, 87, 2, 0.3); } */
+/* body { background-color: rgba(0,0,255,.3); } */
+
+
